@@ -2,7 +2,7 @@
 
 A 14-item mixed-methods survey I designed, fielded and analysed on my own, published in full: the instrument, the data, the counts, and the three defects that were built into the questionnaire before anyone answered it.
 
-Applied Research 2.4, Master Data-Driven Design, Hogeschool Utrecht. Fielded October 2024. Eleven records, ten usable.
+Applied Research 2.4, MA Data-Driven Design, Hogeschool Utrecht. Fielded 18 October 2024. Eleven records, ten usable.
 
 **Read the write-up:** [sepidakz.github.io/student-finance-survey-2024](https://sepidakz.github.io/student-finance-survey-2024/)
 **Reproduce the numbers:** [`analysis.ipynb`](analysis.ipynb)
@@ -94,18 +94,21 @@ Three defects were built into the questionnaire before a single response came in
 - Pilot with five people and a second reader. Both structural defects above would have surfaced in half an hour.
 - Decide the analysis before fielding. Naming the tests in advance is what stops a survey from quietly becoming a thematic exercise after the fact, which is what happened here.
 
+That redesign is written out in full in [`instrument-v2.md`](instrument-v2.md): 22 items across three defined constructs, a MaxDiff block replacing the broken ranking item, a quota sample of 150, and an analysis plan fixed before fielding. It has not been run. It is published as a design document so the reasoning is inspectable, not as a result.
+
 The study did its job as exploratory input: it moved the team off "students don't see the need" and onto usability, and it ruled out reward mechanics early. It was never strong enough to settle the question it was written to answer.
 
 ## Repository
 
 ```
-responses.csv     11 records, anonymous at collection, 14 items plus timestamps
-analysis.ipynb    reproduces every figure above, including the defect demonstrations
-index.html        the write-up, served via GitHub Pages
+responses.csv       11 records, anonymous at collection, 14 items plus timestamps
+analysis.ipynb      reproduces every figure above, including the defect demonstrations
+instrument-v2.md    the redesigned questionnaire and its pre-specified analysis plan
+index.html          the write-up, served via GitHub Pages
 ```
 
 Requires `pandas`. No response is attributable to an individual: the form collected no names or email addresses.
 
 ---
 
-Sepideh Zamani. [sepidehzamani.com](https://sepidehzamani.com)
+Sepideh Zamani. [sepidehzamani.com](https://sepidehzamani.com) · [sepideh.designz@gmail.com](mailto:sepideh.designz@gmail.com)
