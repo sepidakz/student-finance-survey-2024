@@ -99,9 +99,9 @@ The study did its job as exploratory input: it moved the team off "students don'
 ## Repository
 
 ```
-data/responses.csv    11 records, anonymous at collection, 14 items plus timestamps
-analysis.ipynb        reproduces every figure above, including the defect demonstrations
-docs/index.html       the write-up, served via GitHub Pages
+responses.csv     11 records, anonymous at collection, 14 items plus timestamps
+analysis.ipynb    reproduces every figure above, including the defect demonstrations
+index.html        the write-up, served via GitHub Pages
 ```
 
 Requires `pandas`. No response is attributable to an individual: the form collected no names or email addresses.
