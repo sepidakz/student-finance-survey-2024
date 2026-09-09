@@ -2,7 +2,7 @@
 
 A 14-item mixed-methods survey I designed, fielded and analysed on my own, published in full: the instrument, the data, the counts, and the three defects that were built into the questionnaire before anyone answered it.
 
-Applied Research 2.4, MA Data-Driven Design, Hogeschool Utrecht. Fielded 18 October 2024. Eleven records, ten usable.
+UX Research, Master Data-Driven Design, Hogeschool Utrecht. Fielded October 2024. Eleven records, ten usable.
 
 **Read the write-up:** [sepidakz.github.io/student-finance-survey-2024](https://sepidakz.github.io/student-finance-survey-2024/)
 **Reproduce the numbers:** [`analysis.ipynb`](analysis.ipynb)
@@ -111,4 +111,4 @@ Requires `pandas`. No response is attributable to an individual: the form collec
 
 ---
 
-Sepideh Zamani. [sepidehzamani.com](https://sepidehzamani.com) · [sepideh.designz@gmail.com](mailto:sepideh.designz@gmail.com)
+Sepideh Zamani. [sepidehzamani.com](https://sepidehzamani.com)
