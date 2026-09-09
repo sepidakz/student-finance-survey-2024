@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Student finance survey, Utrecht 2024 — Sepideh Zamani</title>
+<title>Student finance survey, Utrecht 2024 · Sepideh Zamani</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <style>
   :root{
     --paper:#E6E8E6;
@@ -24,14 +24,14 @@
     margin:0;
     background:var(--paper);
     color:var(--ink);
-    font-family:"Newsreader",Georgia,serif;
+    font-family:"Poppins",system-ui,sans-serif;
     font-size:18px;
     line-height:1.62;
     font-weight:400;
   }
   ::selection{background:var(--ink);color:var(--paper)}
   a{color:inherit}
-  h1,h2,h3,.lbl,.num,table,.bar-row,.meta,.mark{font-family:"Archivo",system-ui,sans-serif}
+  h1,h2,h3,.lbl,.num,table,.bar-row,.meta,.mark{font-family:"Poppins",system-ui,sans-serif}
 
   .page{max-width:63rem;margin:0 auto;padding:0 1.5rem}
   .band{border-top:1px solid var(--rule)}
@@ -47,9 +47,9 @@
 
   /* ---- masthead ---- */
   header.mast{padding:4.5rem 0 2.75rem}
-  .kicker{font-family:"Archivo";font-size:.78rem;letter-spacing:.02em;color:var(--muted);margin:0 0 1.4rem}
+  .kicker{font-family:"Poppins";font-size:.78rem;letter-spacing:.02em;color:var(--muted);margin:0 0 1.4rem}
   h1{
-    font-family:"Newsreader",Georgia,serif;
+    font-family:"Poppins",system-ui,sans-serif;
     font-weight:400;
     font-size:clamp(2.1rem,5.4vw,3.35rem);
     line-height:1.08;
@@ -70,14 +70,14 @@
     border:1px solid var(--rule);border-radius:1px;
     position:relative;overflow:hidden;
   }
-  .r span{position:absolute;left:.32rem;top:.24rem;font-family:"Archivo";font-size:.66rem;color:var(--muted)}
+  .r span{position:absolute;left:.32rem;top:.24rem;font-family:"Poppins";font-size:.66rem;color:var(--muted)}
   .r i{position:absolute;left:.32rem;right:.32rem;height:2px;background:var(--fill);opacity:.55}
   .r.void{background:transparent;border-style:dashed}
   .r.void::after{
     content:"";position:absolute;inset:-1px;
     background:linear-gradient(to bottom right,transparent calc(50% - .5px),var(--mark) calc(50% - .5px),var(--mark) calc(50% + .5px),transparent calc(50% + .5px));
   }
-  .corpus-note{font-family:"Archivo";font-size:.82rem;color:var(--muted);max-width:var(--measure)}
+  .corpus-note{font-family:"Poppins";font-size:.82rem;color:var(--muted);max-width:var(--measure)}
   .corpus-note em{font-style:normal;color:var(--mark)}
 
   /* ---- sections ---- */
@@ -87,7 +87,7 @@
     color:var(--muted);margin:0 0 1.6rem;
   }
   h2 b{color:var(--ink);font-weight:600}
-  h3{font-family:"Newsreader",Georgia,serif;font-weight:500;font-size:1.32rem;line-height:1.3;margin:2.2rem 0 .55rem;letter-spacing:-.01em}
+  h3{font-family:"Poppins",system-ui,sans-serif;font-weight:500;font-size:1.32rem;line-height:1.3;margin:2.2rem 0 .55rem;letter-spacing:-.01em}
   h3:first-of-type{margin-top:0}
   p{max-width:var(--measure);margin:0 0 1.05rem}
   p.lead{font-size:1.1rem}
@@ -104,7 +104,7 @@
 
   /* instrument table */
   table{border-collapse:collapse;width:100%;max-width:var(--measure);font-size:.87rem;margin:.4rem 0 1.2rem}
-  caption{text-align:left;font-family:"Archivo";font-size:.78rem;color:var(--muted);padding-bottom:.6rem}
+  caption{text-align:left;font-family:"Poppins";font-size:.78rem;color:var(--muted);padding-bottom:.6rem}
   th{text-align:left;font-weight:500;font-size:.72rem;letter-spacing:.04em;color:var(--muted);border-bottom:1px solid var(--ink);padding:0 .8rem .45rem 0}
   td{border-bottom:1px solid var(--rule);padding:.55rem .8rem .55rem 0;vertical-align:top;line-height:1.4}
   td:last-child,th:last-child{padding-right:0}
@@ -113,8 +113,8 @@
 
   /* bar charts */
   .chart{max-width:var(--measure);margin:.2rem 0 1.9rem}
-  .chart h4{font-family:"Archivo";font-weight:500;font-size:.86rem;margin:0 0 .1rem}
-  .chart .base{font-family:"Archivo";font-size:.75rem;color:var(--muted);margin:0 0 .75rem}
+  .chart h4{font-family:"Poppins";font-weight:500;font-size:.86rem;margin:0 0 .1rem}
+  .chart .base{font-family:"Poppins";font-size:.75rem;color:var(--muted);margin:0 0 .75rem}
   .bar-row{display:grid;grid-template-columns:minmax(0,1fr) 5.5rem 1.4rem;align-items:center;gap:.6rem;font-size:.83rem;padding:.16rem 0}
   .track{background:var(--paper-2);height:.62rem;border-radius:1px}
   .fill{height:100%;background:var(--fill);border-radius:1px}
@@ -127,9 +127,9 @@
     max-width:var(--measure);border-left:1px solid var(--rule);
     padding-left:1.1rem;margin:1.4rem 0;font-size:1.02rem;color:var(--ink)
   }
-  .quote small{display:block;font-family:"Archivo";font-size:.75rem;color:var(--muted);margin-top:.4rem}
+  .quote small{display:block;font-family:"Poppins";font-size:.75rem;color:var(--muted);margin-top:.4rem}
 
-  footer{padding:3rem 0 4.5rem;font-family:"Archivo";font-size:.85rem;color:var(--muted)}
+  footer{padding:3rem 0 4.5rem;font-family:"Poppins";font-size:.85rem;color:var(--muted)}
   footer a{text-decoration:none;border-bottom:1px solid var(--rule);color:var(--ink)}
   footer a:hover,footer a:focus-visible{border-bottom-color:var(--ink)}
   :focus-visible{outline:2px solid var(--mark);outline-offset:3px}
@@ -140,11 +140,11 @@
 <div class="page">
 
   <header class="mast">
-    <p class="kicker">Applied research · MA Data-Driven Design, Hogeschool Utrecht · October 2024</p>
+    <p class="kicker">UX Research · Master Data-Driven Design, Hogeschool Utrecht · October 2024</p>
     <h1>A student finance survey I designed, ran, and would now rebuild</h1>
-    <p class="standfirst">Eleven students answered. Ten answers were usable. This is the whole study — the instrument, the counts, and the three things I got wrong in the questionnaire before anyone answered it.</p>
+    <p class="standfirst">Eleven students answered. Ten answers were usable. This is the whole study: the instrument, the counts, and the three things I got wrong in the questionnaire before anyone answered it.</p>
     <div class="meta">
-      <div><b>Role</b> Sole researcher — design, fielding, analysis</div>
+      <div><b>Role</b> Sole researcher, design through analysis</div>
       <div><b>Method</b> Self-administered online survey, 14 items</div>
       <div><b>Fielded</b> 18 October 2024, single day</div>
       <div><b>Usable n</b> 10</div>
@@ -164,7 +164,7 @@
         <div class="r"><span>10</span><i style="top:1.5rem;right:1rem"></i><i style="top:2.1rem"></i><i style="top:2.7rem"></i></div>
         <div class="r void"><span>11</span></div>
       </div>
-      <p class="corpus-note">Respondent 11 opened the form at 21:45:07 and left at 21:45:25 — eighteen seconds, demographics only. <em>Dropped from every count on this page.</em> Median completion time for the ten who finished: 3.2 minutes.</p>
+      <p class="corpus-note">Respondent 11 opened the form at 21:45:07 and left at 21:45:25, eighteen seconds later, having answered only the demographic items. <em>Dropped from every count on this page.</em> Median completion time for the ten who finished: 3.2 minutes.</p>
     </div>
   </header>
 
@@ -172,9 +172,9 @@
     <div class="row">
       <div class="body">
         <h2><b>The question</b></h2>
-        <p class="lead">How do the money-literacy limitations students face shape the way they actually handle their finances — and what does that mean for anyone designing a tool for them?</p>
+        <p class="lead">How do the money-literacy limitations students face shape the way they actually handle their finances, and what does that mean for anyone designing a tool for them?</p>
         <p>The brief was exploratory: a financial management concept for students was being scoped, and nobody on the team could say with any confidence whether students avoided budgeting tools because the tools were hard, because they had no time, or because they saw no reason to bother. Those three explanations imply three completely different products.</p>
-        <p>I chose a survey because the disagreement was about <em>distribution</em> — how common each reason was — not about depth. A handful of interviews would have given me richer stories and no way to weigh them.</p>
+        <p>I chose a survey because the disagreement was about <em>distribution</em>, meaning how common each reason was, rather than about depth. A handful of interviews would have given me richer stories and no way to weigh them.</p>
       </div>
       <div class="aside">
         <p class="mark"><b>IN HINDSIGHT</b>The reasoning was right and the execution didn't match it. If the question is about distribution, a sample of ten cannot answer it. I should have either widened the sample or accepted that this was a qualitative study and designed it as one.</p>
@@ -196,10 +196,10 @@
           <tbody>
             <tr><td class="q">1</td><td>Age</td><td>Open numeric</td></tr>
             <tr><td class="q">2</td><td>Student category</td><td>Single select, 4 options</td></tr>
-            <tr><td class="q">3</td><td>Source of income</td><td class="flag">Single select — broken, see below</td></tr>
+            <tr><td class="q">3</td><td>Source of income</td><td class="flag">Single select, broken, see below</td></tr>
             <tr><td class="q">4</td><td>Self-rated understanding of financial concepts</td><td class="flag">5-point scale, unanchored</td></tr>
             <tr><td class="q">5</td><td>Ever taken a personal finance course</td><td>Yes / No</td></tr>
-            <tr><td class="q">6</td><td>Most challenging concepts</td><td class="flag">Ranking — should have been select</td></tr>
+            <tr><td class="q">6</td><td>Most challenging concepts</td><td class="flag">Ranking, should have been a select</td></tr>
             <tr><td class="q">7</td><td>Currently tracks expenses</td><td>Single select, 3 options</td></tr>
             <tr><td class="q">8</td><td>Methods used to manage finances</td><td>Multi select, 5 options</td></tr>
             <tr><td class="q">9</td><td>Frequency of saving</td><td class="flag">5-point frequency, unordered options</td></tr>
@@ -222,7 +222,7 @@
     <div class="row">
       <div class="body">
         <h2><b>What the ten answers show</b></h2>
-        <p>Counts, not percentages. With ten respondents a percentage is a rounding artefact dressed up as a finding — “55%” of this sample is five and a half people, and reporting it that way would imply a precision the data cannot carry.</p>
+        <p>Counts, not percentages. With ten respondents a percentage is a rounding artefact dressed up as a finding. “55%” of this sample is five and a half people, and reporting it that way would imply a precision the data cannot carry.</p>
 
         <div class="chart">
           <h4>Why students use, or avoid, a financial tool</h4>
@@ -235,7 +235,7 @@
           <div class="bar-row"><span>I don't see the need</span><span class="track"><span class="fill" style="width:17%"></span></span><span class="n">1</span></div>
         </div>
 
-        <p>This was the item that mattered. Usability outranked both time and indifference, and it did so consistently enough at this size to be worth testing properly. “I don't see the need” — the explanation the team had been treating as likeliest — was chosen once.</p>
+        <p>This was the item that mattered. Usability outranked both time and indifference, and it did so consistently enough at this size to be worth testing properly. “I don't see the need”, the explanation the team had been treating as likeliest, was chosen once.</p>
 
         <div class="chart">
           <h4>What would make a tool more engaging</h4>
@@ -247,7 +247,7 @@
           <div class="bar-row"><span>Gamification / rewards</span><span class="track"><span class="fill" style="width:0%"></span></span><span class="n">0</span></div>
         </div>
 
-        <p>Gamification was selected by nobody — the one flat rejection in the study, and the finding I trust most, because a zero needs no sample size to be interesting. It ran directly against where the concept work was heading at the time.</p>
+        <p>Gamification was selected by nobody. It is the one flat rejection in the study, and the finding I trust most, because a zero needs no sample size to be interesting. It ran directly against where the concept work was heading at the time.</p>
 
         <div class="chart">
           <h4>Current tracking behaviour</h4>
@@ -258,12 +258,12 @@
           <div class="bar-row"><span>Uses a dedicated finance app</span><span class="track"><span class="fill" style="width:17%"></span></span><span class="n">1</span></div>
         </div>
 
-        <p>One respondent in ten used a purpose-built finance app. Three kept spreadsheets by hand — which is a usability verdict on the category, delivered without anyone being asked for one.</p>
+        <p>One respondent in ten used a purpose-built finance app. Three kept spreadsheets by hand, which is a usability verdict on the category, delivered without anyone being asked for one.</p>
 
-        <p>Two context items are worth stating flatly: nine of the ten had never taken any course on managing money, and seven reported feeling stressed about their finances often or always. Self-report, single item, no validated scale — directional at best, but consistent with what the open answers said.</p>
+        <p>Two context items are worth stating flatly: nine of the ten had never taken any course on managing money, and seven reported feeling stressed about their finances often or always. Self-report, single item, no validated scale, so directional at best, but consistent with what the open answers said.</p>
 
         <div class="quote">
-          “The overview and customization — I have trouble gaining a clear view of everything going on, which overwhelms me.”
+          “The overview and customization, I have trouble gaining a clear view of everything going on which overwhelms me.”
           <small>Item 14, respondent 09</small>
         </div>
       </div>
@@ -280,13 +280,13 @@
         <p>Three defects were built into the questionnaire before a single response came in. I found them while cleaning the data, which is later than I should have.</p>
 
         <h3>Item 3 offered “Other” twice</h3>
-        <p>The income question shipped with two separate options both labelled as other, one of them free-text. Three of ten answers landed in one or the other, and a fourth respondent typed a combined answer — “part-time job and student loan” — that a single-select item had no way to hold. Income is therefore unusable as a variable in this dataset. A second reader on the draft would have caught it in a minute.</p>
+        <p>The income question shipped with two separate options both labelled as other, one of them free-text. Three of ten answers landed in one or the other, and a fourth respondent typed a combined answer, “part-time job and student loan”, that a single-select item had no way to hold. Income is therefore unusable as a variable in this dataset. A second reader on the draft would have caught it in a minute.</p>
 
         <h3>Item 6 was built as a ranking, so it measures nothing</h3>
         <p>I wanted to know which financial concepts students find hardest. The item forced every respondent to order all six, so every concept registers for all ten and the counts come out flat at ten across the board. The output looks like data and carries no signal. The right instrument was a pick-your-top-three, or a MaxDiff design if I wanted a genuine preference ordering.</p>
 
         <h3>The 5-point knowledge scale had no anchors</h3>
-        <p>Item 4 asked students to rate their understanding from very poor to excellent with no definition of any point. Four said poor and four said fair, but there is no reason to believe two respondents meant the same thing by “fair”, and no way to check. A behavioural proxy — can you name what you spent on groceries last month — would have been harder to write and worth far more.</p>
+        <p>Item 4 asked students to rate their understanding from very poor to excellent with no definition of any point. Four said poor and four said fair, but there is no reason to believe two respondents meant the same thing by “fair”, and no way to check. A behavioural proxy, such as asking whether they can name what they spent on groceries last month, would have been harder to write and worth far more.</p>
 
         <h3>And the sample was whatever answered that day</h3>
         <p>One evening, one network, self-selecting. Median age 29.5, which is old for a student sample and tells you the recruitment reached my own cohort rather than students in general. Five of ten were international students, which suited the eventual design focus but was luck, not sampling.</p>
@@ -303,11 +303,11 @@
         <h2><b>How I'd design it now</b></h2>
         <ul>
           <li><strong>Define the constructs before writing items.</strong> Financial confidence, tracking behaviour and tool friction are three different things; this questionnaire moved between them without saying so.</li>
-          <li><strong>Anchor every scale, or replace it with a behavioural measure.</strong> Frequency items with concrete referents — “in the past 30 days, how many times…” — beat unanchored adjectives.</li>
+          <li><strong>Anchor every scale, or replace it with a behavioural measure.</strong> Frequency items with concrete referents, such as “in the past 30 days, how many times”, beat unanchored adjectives.</li>
           <li><strong>Use MaxDiff for the feature preference item.</strong> Items 10 and 13 both ask about desirability, and multi-select lets a respondent want everything. Forced trade-offs would have produced a real ordering.</li>
           <li><strong>Set the sample against the analysis, not the deadline.</strong> To compare international, EU/EEA and Dutch students I need quotas and a base near 100, not whoever replies before midnight.</li>
           <li><strong>Pilot with five people and a second reader.</strong> Both structural defects above would have surfaced in half an hour.</li>
-          <li><strong>Decide the analysis before fielding.</strong> Naming the tests in advance is what stops a survey from quietly becoming a thematic exercise after the fact — which is what happened here.</li>
+          <li><strong>Decide the analysis before fielding.</strong> Naming the tests in advance is what stops a survey from quietly becoming a thematic exercise after the fact, which is what happened here.</li>
         </ul>
         <p>The study did its job as exploratory input: it moved the team off “students don't see the need” and onto usability, and it killed gamification early. It was never strong enough to settle the question it was written to answer, and I'd rather say that plainly than round ten people up to a percentage.</p>
       </div>
@@ -318,8 +318,7 @@
   </section>
 
   <footer class="band">
-    <p>Sepideh Zamani · Applied Research 2.4, MA Data-Driven Design, Hogeschool Utrecht · Raw responses, coding sheet and the original form are available on request.<br>
-    <a href="mailto:sepideh.designz@gmail.com">sepideh.designz@gmail.com</a></p>
+    <p>Sepideh Zamani · UX Research, Master Data-Driven Design, Hogeschool Utrecht</p>
   </footer>
 
 </div>
